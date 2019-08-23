@@ -4,3 +4,5 @@
 [build.environment]
   YARN_VERSION = "1.3.2"
   YARN_FLAGS = "--no-ignore-optional"
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.29"
